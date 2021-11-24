@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body id="page-top">
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+    <!-- Scroll to Top Button-->
+    <a id="scroll-to-top" href="#page-top">
+      <i class="fa fa-angle-up fa-2x"></i>
+    </a>
+    <script src="/assets/js/button_script.js"></script>
+  </body>
+
+</html>
