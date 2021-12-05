@@ -1,18 +1,11 @@
 ---
 layout: page
-title: About
+title: About this blog
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am documenting my learning notes in this blog. I will mainly post notes related to my research and projects here.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+For more random posts and thoughts, you can also check my other (older) blog at [tandukion.blogspot.com][blogspot]
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[blogspot]: https://tandukion.blogspot.com/
