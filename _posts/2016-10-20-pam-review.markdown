@@ -75,7 +75,7 @@ From the output force equation, we can derive the quation into:
 
 $$C^{-1} = K = \frac{\delta F}{\delta (\Delta L)} = \frac{6\pi}{\cot^2 \theta_0} \frac{D_0^2}{L_0^2} P L$$
 
-where $$C$$ is muscle complaice and $$K$$ is muscle stiffness.
+where $$C$$ is muscle compliance and $$K$$ is muscle stiffness.
 
 ### References:
 
