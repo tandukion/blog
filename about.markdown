@@ -2,7 +2,6 @@
 layout: page
 title: About this blog
 permalink: /about/
-header: true
 ---
 
 I am documenting my learning notes in this blog. I will mainly post notes related to my research and projects here.

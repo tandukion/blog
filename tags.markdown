@@ -1,0 +1,20 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+header: true
+---
+<div class="home other-pages">
+  {% capture temp_tags %}
+    {% for tag in site.tags %}
+      {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+    {% endfor %}
+  {% endcapture %}
+  {% assign sorted_temp_tags = temp_tags | split:' ' | sort %}
+  {% for temp_tag in sorted_temp_tags %}
+    {% assign tag_items = temp_tag | split: '#' %}
+    <span class="post-meta">
+      <a class="post-tag" href="{{ site.baseurl }}/tag/{{ tag_items[1] }}">{{ tag_items[1]}} ({{ tag_items[2] }})</a>
+    </span><br/>
+  {% endfor %}
+</div>
