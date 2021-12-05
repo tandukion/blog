@@ -36,3 +36,13 @@ a#scroll-to-top:hover {
 #scroll-to-top:hover {
   background: #343a40;
 }
+
+.post-tag {
+  border-radius: 5px;
+  border: 2px solid gray;
+  padding: 2px;
+  color: gray;
+}
+.post-tag:visited {
+  color: gray;
+}
