@@ -6,6 +6,9 @@ tags: actuator review
 comments: true
 ---
 
+> Review on pneumatic artificial muscle as actuator.
+<!--more-->
+
 ## Overview
 
 Pneumatic Artificial Muscle (PAM) actuator is an alternative actuator that mimics muscle mechanism.

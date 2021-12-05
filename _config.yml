@@ -41,6 +41,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-archive
+show_excerpts: True
+excerpt_separator: <!--more-->
 
 # Disqus comments
 disqus:
