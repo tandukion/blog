@@ -37,6 +37,13 @@ a#scroll-to-top:hover {
   background: #343a40;
 }
 
+#home-link {
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  background: var(--main-color);
+}
+
 .post-tag {
   border-radius: 5px;
   border: 2px solid gray;

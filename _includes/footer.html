@@ -7,6 +7,10 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-text">
+        <a class="page-link" href="" id="home-link-text">dwindra.id</a>
+        <script>
+          $("#home-link-text").attr("href", window.location.host);
+        </script>
         &copy; <script>document.write( new Date().getFullYear(), " " );</script>
         {%- if site.author -%}
           {{ site.author | escape }}
