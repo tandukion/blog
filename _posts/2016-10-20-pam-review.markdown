@@ -80,6 +80,15 @@ $$C^{-1} = K = \frac{\delta F}{\delta (\Delta L)} = \frac{6\pi}{\cot^2 \theta_0}
 
 where $$C$$ is muscle compliance and $$K$$ is muscle stiffness.
 
+## Applications of pneumatic artifical muscle
+The application of pneumatic artifical muscle may vary from:
+- rehabilition device
+- exoskeleton
+- musculoskeletal robot
+
+Further survey on application of pneumatic artifical muscle can be checked from the reference [4].
+
+
 ### References:
 
 [1] Bertrand Tondu and Pierre Lopez. Modeling and control of mckibben artificial muscle robot actuators.
@@ -88,6 +97,8 @@ where $$C$$ is muscle compliance and $$K$$ is muscle stiffness.
 *European journal of mechanical and environmental engineering*, Vol. 47, No. 1, pp. 11–21, 2002.<br/>
 [3] Ching Ping Chou and Blake Hannaford. Measurement and modeling of mckibben pneumatic artificial muscles.
 *IEEE Transactions on Robotics and Automation*, Vol. 12, No. 1, pp. 90–102, 1996.<br/>
+[4] Andrikopoulos, Georgios, Georgios Nikolakopoulos, and Stamatis Manesis. A survey on applications of pneumatic artificial muscles.
+*2011 19th Mediterranean Conference on Control & Automation (MED)*, pp. 1439-1446. IEEE, 2011<br/>
 
 [pam-gif]: {{ "/assets/images/2016/2016_mckibben.gif" | relative_url }}
 [pam-structure]: {{ "/assets/images/2016/2016_pam.jpg" | relative_url }}
