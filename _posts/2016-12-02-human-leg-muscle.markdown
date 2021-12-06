@@ -101,6 +101,8 @@ The figure below shows the muscles all together in one image for a full (simplif
 ![][mus-lower-extremity]{: width="500"}
 ##### *Human lower extremity muscles (simplified)*
 
+### References:
+
 [1] Friedrich Paulsen and Jens Waschke. *Sobotta Atlas of Human Anatomy*, Vol. 1.
 Urban & Fischer, 15 edition, 2011.<br/>
 
