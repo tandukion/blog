@@ -85,11 +85,8 @@ EMLA tries to solve the drawback of PAM for its slow response on changing stiffn
 ![][actuator-emla-b]{: width="300" }
 ###### *Electromagnetic Linear Actuator (EMLA) [21]*
 
-EMLA has been proved to enable robot for performing hopping steps by changing the stiffness dynamically [].
+EMLA has been proved to enable robot for performing hopping steps by changing the stiffness dynamically [22].
 One drawback of EMLA is that it cannot be used for maintaining posture since the coil will continuously be excited and produce heat.
-
-(monoped img)
-
 
 ### References:
 <!-- SEA -->
@@ -162,12 +159,21 @@ In *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*,
 [21] Yoshihiro Nakata, Hiroshi Ishiguro, and Katsuhiro Hirata.
 Dynamic analysis method for electromagnetic artificial muscle actuator under pid control. 
 *IEEJ Transactions on Industry Applications*, Vol. 131, No. 2, pp. 166–170, 2011.<br/>
+[22] Yoshihiro Nakata, Atsuhiro Ide, Yutaka Nakamura, Katsuhiro Hirata, and Hiroshi Ishiguro.
+Hopping of a monopedal robot with a biarticular muscle driven by electromagnetic linear actuators.
+In *IEEE International Conference on Robotics and Automation (ICRA)*, pp. 3153–3160. IEEE, 2012.<br/>
+<!-- Pneumatic-Electric Hybrid -->
+[24] Yoshihiro Nakata, Tomoyuki Noda, Jun Morimoto, and Hiroshi Ishiguro.
+Development of a pneumatic-electromagnetic hybrid linear actuator with an integrated structure.
+*2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, pp. 6238-6243, 2015.<br/>
+
 
 [actuator-sea]: {{ "/assets/images/2016/2016_actuator_sea.jpg" | relative_url }}
 [actuator-tendon-driven]: {{ "/assets/images/2016/2016_actuator_tendon_driven.jpg" | relative_url }}
 [actuator-pam]: {{ "/assets/images/2016/2016_pam_type_1.jpg" | relative_url }}
 [actuator-emla-a]: {{ "/assets/images/2016/2016_actuator_emla_a.jpg" | relative_url }}
 [actuator-emla-b]: {{ "/assets/images/2016/2016_actuator_emla_b.jpg" | relative_url }}
+[actuator-ipehla]: {{ "/assets/images/2016/2016_actuator_ipehla.png" | relative_url }}
 [robot-biobiped1]: {{ "/assets/images/2016/2016_robot_biobiped1.png" | relative_url }}
 [robot-biobiped2]: {{ "/assets/images/2016/2016_robot_biobiped2.png" | relative_url }}
 [robot-biobiped3]: {{ "/assets/images/2016/2016_robot_biobiped3.jpg" | relative_url }}
