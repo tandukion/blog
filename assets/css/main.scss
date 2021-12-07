@@ -42,6 +42,7 @@ a#scroll-to-top:hover {
   color: white;
   border-radius: 5px;
   background: var(--main-color);
+  text-align: center;
 }
 
 .post-tag {
@@ -65,4 +66,35 @@ a#scroll-to-top:hover {
 }
 .page-navigation > a.next {
   margin-left: auto;
+}
+
+// Navigation bar
+@media screen and (max-width: 600px) {
+  .site-nav {
+    display: none;
+  }
+  #menu-button {
+    display: block;
+    color: var(--header-color);
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 36px;
+    height: 31px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+  }
+  #home-link {
+    padding: 15px 0;
+    border-radius: 0px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #menu-button {
+    display: none;
+  }
 }

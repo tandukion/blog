@@ -5,6 +5,11 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
+    <a id="menu-button">
+      <i class="fa fa-bars"></i>
+      <i class="fa fa-angle-right fa-lg" style="display: none"></i>
+    </a>
+
     {%- if page_paths -%}
       <nav class="site-nav">
 
