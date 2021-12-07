@@ -53,3 +53,16 @@ a#scroll-to-top:hover {
 .post-tag:visited {
   color: gray;
 }
+
+.page-navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.page-navigation > a.prev {
+  margin-right: auto;
+}
+.page-navigation > a.next {
+  margin-left: auto;
+}
