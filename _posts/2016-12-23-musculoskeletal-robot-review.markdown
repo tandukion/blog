@@ -40,8 +40,6 @@ It uses nonlinear spring tension mechanism.
 Utilizing tendon-driven muscle enables implementing redundant muscles to realize an anatomical musculoskeletal robot.
 JSK robots use this type of muscle and have shown the ability of various motion, such as push-up, roll over, and stepping motion [10].
 
-(Kenta)(Kotaro)(Kojiro)(Kenzoh)(Kenshiro)(Kengoro)
-
 ![][robot-jsk-kotaro]{: height="300" }
 ![][robot-jsk-kojiro]{: height="300" }
 <!-- ![][robot-jsk-kenzoh]{: height="200" } -->
