@@ -60,15 +60,22 @@ Having features of high power-to-weight ratio and passive compliance, the robots
 
 ISI robots have shown this kind of ability.
 
-![][robot-isi-mowgli]{: height="250" }
+![][robot-isi-mowgli]{: height="200" }
 ![][robot-isi-athlete1]{: height="300" }
 ![][robot-isi-athlete2]{: height="300" }
 ![][robot-isi-athlete3]{: height="300" }
 ###### *Mowgli [12], Athlete robot [13], Running Athlete [14], Jumping Athlete [15]*
 
+![][robot-isi-paulter-ii]{: height="250" }
+![][robot-isi-tacomal]{: height="200" }
+###### *PAULTER II [16], TACOMAL [17]*
+
 Hosoda Lab also have been developing robots with PAM.
 
-(Pneumat BS)
+![][robot-hosoda-2d-biped-walker]{: height="250" }
+![][robot-hosoda-pneumat-bt]{: height="300" }
+![][robot-hosoda-pneumat-bs]{: height="300" }
+###### *2D Biped Walker [18], Pneumat-BT [19], Pneumat-BS [20]*
 
 ### Electromagnetic Linear Actuator (EMLA)
 Electromagnetic Linear Actuator (EMLA) uses permanent magnet to get compliance property.
@@ -76,7 +83,7 @@ EMLA tries to solve the drawback of PAM for its slow response on changing stiffn
 
 ![][actuator-emla-a]{: width="300" }
 ![][actuator-emla-b]{: width="300" }
-###### *Electromagnetic Linear Actuator (EMLA) []*
+###### *Electromagnetic Linear Actuator (EMLA) [21]*
 
 EMLA has been proved to enable robot for performing hopping steps by changing the stiffness dynamically [].
 One drawback of EMLA is that it cannot be used for maintaining posture since the coil will continuously be excited and produce heat.
@@ -85,6 +92,7 @@ One drawback of EMLA is that it cannot be used for maintaining posture since the
 
 
 ### References:
+<!-- SEA -->
 [1] Katayon Radkhah, Christophe Maufroy, Moritz Maus, Dorian Scholz, Andre Seyfarth, and Oskar Von Stryk.
 Concept and design of the biobiped1 robot for human-like walking and running. 
 *International Journal of Humanoid Robotics*, Vol. 8, No. 03, pp. 439–458, 2011. <br/>
@@ -97,6 +105,8 @@ Efficient Design Parameter Optimization for Musculoskeletal Bipedal Robots Combi
 [4] Maziar Ahmad Sharbafi, Christian Rode, Stefan Kurowski, Dorian Scholz, Rico Möckel, Katayon Radkhah, Guoping Zhao, Aida Mohammadinejad Rashty, Oskar von Stryk, and Andre Seyfarth. 
 A new biarticular actuator design facilitates control of leg function in biobiped3.
 *Bioinspiration & biomimetics*, Vol. 11, No. 4, p.046003, 2016.<br/>
+<!-- Tendon-driven -->
+<!-- JSK -->
 [5] Kazuhito Hyodo and Hiroaki Kobayashi.
 A study on tendon controlled wrist mechanism with nonlinear spring tensioner.
 *Journal of the robotics Society of Japan*, Vol. 11, No. 8, pp. 1244–1251, 1993.<br/>
@@ -115,9 +125,11 @@ Design Concept of Detail Musculoskeletal Humanoid ”Kenshiro” - Toward a real
 [10] Yuki Asano, Toyotaka Kozuki, Soichi Ookubo, Masaya Kawamura, Shinsuke Nakashima, Takeshi Katayama, Iori Yanokura, Toshinori Hirose, Kento Kawaharazuka, Shogo Makino, et al.
 Human mimetic musculoskeletal humanoid kengoro toward real world physically interactive actions.
 *IEEE-RAS 16th International Conference on Humanoid Robots (Humanoids)*, pp. 876–883, 2016.<br/>
+<!-- PAM -->
 [11] Frank Daerden and Dirk Lefeber.
 Pneumatic artificial muscles: actuators for robotics and automation.
 *European journal of mechanical and environmental engineering*, Vol. 47, No. 1, pp. 11–21, 2002.<br/>
+<!-- ISI -->
 [12] Ryuma Niiyama, Akihiko Nagakubo, and Yasuo Kuniyoshi.
 Mowgli: A bipedal jumping and landing robot with an artificial musculoskeletal system.
 *Proceedings 2007 IEEE International Conference on Robotics and Automation*, pp. 2546-2551, 2007.<br/>
@@ -130,7 +142,24 @@ Athlete robot with applied human muscle activation patterns for bipedal running.
 [15] Satoshi Nishikawa, Kazutoshi Tanaka, Kazuya Shida, Toshihiko Fukushima, Ryuma Niiyama, and Yasuo Kuniyoshi.
 A musculoskeletal bipedal robot designed with angle-dependent moment arm for dynamic motion from multiple states.
 *Advanced Robotics*, Vol. 28, No. 7, pp. 487–496, 2014.<br/>
-[] Yoshihiro Nakata, Hiroshi Ishiguro, and Katsuhiro Hirata.
+[16] Satoshi Nishikawa, Tomohiro Kobayashi, Toshihiko Fukushima, and Yasuo Kuniyoshi.
+Pole vaulting robot with dual articulated arms that can change reaching position using active bending motion.
+*2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids)*, pp. 395-400, 2015.<br/>
+[17] Satoshi Nishikawa, Kazuya Shida and Yasuo Kuniyoshi.
+Musculoskeletal Quadruped Robot with Torque-Angle Relationship Control System.
+*2016 IEEE International Conference on Robotics and Automation (ICRA)*, pp. 4044-4050, 2016.<br/>
+<!-- Hosoda -->
+[18] Koh Hosoda, Takashi Takuma, Atsushi Nakamoto, Shinji Hayashi.
+Biped robot design powered by antagonistic pneumatic actuators for multi-modal locomotion.
+*Robotics and Autonomous Systems*, Vol. 56, pp. 46–53, 2018.<br/>
+[19] Kenichi Narioka, Shinpei Tsugawa, and Koh Hosoda.
+3D limit cycle walking of musculoskeletal humanoid robot with flat feet.
+*2009 IEEE/RSJ International Conference on Intelligent Robots and Systems*, pp. 4676-4681, 2009. <br/>
+[20] Keita Ogawa, Kenichi Narioka, and Koh Hosoda.
+Development of whole-body humanoid pneumat-bs with pneumatic musculoskeletal system.
+In *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, pp. 4838–4843. IEEE, 2011.<br/>
+<!-- EMLA -->
+[21] Yoshihiro Nakata, Hiroshi Ishiguro, and Katsuhiro Hirata.
 Dynamic analysis method for electromagnetic artificial muscle actuator under pid control. 
 *IEEJ Transactions on Industry Applications*, Vol. 131, No. 2, pp. 166–170, 2011.<br/>
 
@@ -151,3 +180,8 @@ Dynamic analysis method for electromagnetic artificial muscle actuator under pid
 [robot-isi-athlete1]: {{ "/assets/images/2016/2016_robot_isi_athlete1.jpg" | relative_url }}
 [robot-isi-athlete2]: {{ "/assets/images/2016/2016_robot_isi_athlete2.jpg" | relative_url }}
 [robot-isi-athlete3]: {{ "/assets/images/2016/2016_robot_isi_athlete3.png" | relative_url }}
+[robot-isi-tacomal]: {{ "/assets/images/2016/2016_robot_isi_tacomal.png" | relative_url }}
+[robot-isi-paulter-ii]: {{ "/assets/images/2016/2016_robot_isi_paulter_ii.png" | relative_url }}
+[robot-hosoda-2d-biped-walker]: {{ "/assets/images/2016/2016_robot_hosoda_2d_biped_walker.png" | relative_url }}
+[robot-hosoda-pneumat-bt]: {{ "/assets/images/2016/2016_robot_hosoda_pneumat_bt.png" | relative_url }}
+[robot-hosoda-pneumat-bs]: {{ "/assets/images/2016/2016_robot_hosoda_pneumat_bs.png" | relative_url }}
