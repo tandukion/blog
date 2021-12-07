@@ -69,7 +69,7 @@ Final check should make sure:
 ![][pam-gif]
 ###### *Final result for parallel McKibben muscles*
 
-[pam-gif]: {{ "/assets/images/2016/2016_mckibben.gif" | relative_url }}
-[mckibben-single]: {{ "/assets/images/2016/2016_mckibben_single.png" | relative_url }}
-[mckibben-parts]: {{ "/assets/images/2016/2016_mckibben_parts.jpg" | relative_url }}
-[mckibben-structure]: {{ "/assets/images/2016/2016_mckibben_structure.png" | relative_url }}
+[pam-gif]: {{ "/assets/images/pam_fabrication/mckibben.gif" | relative_url }}
+[mckibben-single]: {{ "/assets/images/pam_fabrication/mckibben_single.png" | relative_url }}
+[mckibben-parts]: {{ "/assets/images/pam_fabrication/mckibben_parts.jpg" | relative_url }}
+[mckibben-structure]: {{ "/assets/images/pam_fabrication/mckibben_structure.png" | relative_url }}

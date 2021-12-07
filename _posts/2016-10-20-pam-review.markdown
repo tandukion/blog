@@ -100,8 +100,8 @@ Further survey on application of pneumatic artifical muscle can be checked from 
 [4] Andrikopoulos, Georgios, Georgios Nikolakopoulos, and Stamatis Manesis. A survey on applications of pneumatic artificial muscles.
 *2011 19th Mediterranean Conference on Control & Automation (MED)*, pp. 1439-1446. IEEE, 2011<br/>
 
-[pam-gif]: {{ "/assets/images/2016/2016_mckibben.gif" | relative_url }}
-[pam-structure]: {{ "/assets/images/2016/2016_pam.jpg" | relative_url }}
-[pam-type-1]: {{ "/assets/images/2016/2016_pam_type_1.jpg" | relative_url }}
-[pam-type-2]: {{ "/assets/images/2016/2016_pam_type_2.jpg" | relative_url }}
-[mckibben-parameters]: {{ "/assets/images/2016/2016_mckibben_parameters.png" | relative_url }}
+[pam-gif]: {{ "/assets/images/pam/mckibben.gif" | relative_url }}
+[pam-structure]: {{ "/assets/images/pam/pam.jpg" | relative_url }}
+[pam-type-1]: {{ "/assets/images/pam/pam_type_1.jpg" | relative_url }}
+[pam-type-2]: {{ "/assets/images/pam/pam_type_2.jpg" | relative_url }}
+[mckibben-parameters]: {{ "/assets/images/pam/mckibben_parameters.png" | relative_url }}

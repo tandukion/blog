@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Musculoskeletal robot: A review"
-date:   2016-12-23 13:39:40 +0900
+date:   2018-06-12 13:39:40 +0900
 tags: robot musculoskeletal review
 ---
 > Review on the development on musculoskeletal robots.
@@ -166,26 +166,26 @@ Development of a pneumatic-electromagnetic hybrid linear actuator with an integr
 *2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, pp. 6238-6243, 2015.<br/>
 
 
-[actuator-sea]: {{ "/assets/images/2016/2016_actuator_sea.jpg" | relative_url }}
-[actuator-tendon-driven]: {{ "/assets/images/2016/2016_actuator_tendon_driven.jpg" | relative_url }}
-[actuator-pam]: {{ "/assets/images/2016/2016_pam_type_1.jpg" | relative_url }}
-[actuator-emla-a]: {{ "/assets/images/2016/2016_actuator_emla_a.jpg" | relative_url }}
-[actuator-emla-b]: {{ "/assets/images/2016/2016_actuator_emla_b.jpg" | relative_url }}
-[actuator-ipehla]: {{ "/assets/images/2016/2016_actuator_ipehla.png" | relative_url }}
-[robot-biobiped1]: {{ "/assets/images/2016/2016_robot_biobiped1.png" | relative_url }}
-[robot-biobiped2]: {{ "/assets/images/2016/2016_robot_biobiped2.png" | relative_url }}
-[robot-biobiped3]: {{ "/assets/images/2016/2016_robot_biobiped3.jpg" | relative_url }}
-[robot-jsk-kotaro]: {{ "/assets/images/2016/2016_robot_jsk_kotaro.png" | relative_url }}
-[robot-jsk-kojiro]: {{ "/assets/images/2016/2016_robot_jsk_kojiro.png" | relative_url }}
-[robot-jsk-kenzoh]: {{ "/assets/images/2016/2016_robot_jsk_kenzoh.png" | relative_url }}
-[robot-jsk-kenshiro]: {{ "/assets/images/2016/2016_robot_jsk_kenshiro.png" | relative_url }}
-[robot-jsk-kengoro]: {{ "/assets/images/2016/2016_robot_jsk_kengoro.jpg" | relative_url }}
-[robot-isi-mowgli]: {{ "/assets/images/2016/2016_robot_isi_mowgli.png" | relative_url }}
-[robot-isi-athlete1]: {{ "/assets/images/2016/2016_robot_isi_athlete1.jpg" | relative_url }}
-[robot-isi-athlete2]: {{ "/assets/images/2016/2016_robot_isi_athlete2.jpg" | relative_url }}
-[robot-isi-athlete3]: {{ "/assets/images/2016/2016_robot_isi_athlete3.png" | relative_url }}
-[robot-isi-tacomal]: {{ "/assets/images/2016/2016_robot_isi_tacomal.png" | relative_url }}
-[robot-isi-paulter-ii]: {{ "/assets/images/2016/2016_robot_isi_paulter_ii.png" | relative_url }}
-[robot-hosoda-2d-biped-walker]: {{ "/assets/images/2016/2016_robot_hosoda_2d_biped_walker.png" | relative_url }}
-[robot-hosoda-pneumat-bt]: {{ "/assets/images/2016/2016_robot_hosoda_pneumat_bt.png" | relative_url }}
-[robot-hosoda-pneumat-bs]: {{ "/assets/images/2016/2016_robot_hosoda_pneumat_bs.png" | relative_url }}
+[actuator-sea]: {{ "/assets/images/musculoskeletal_robot_review/actuator_sea.jpg" | relative_url }}
+[actuator-tendon-driven]: {{ "/assets/images/musculoskeletal_robot_review/actuator_tendon_driven.jpg" | relative_url }}
+[actuator-pam]: {{ "/assets/images/musculoskeletal_robot_review/pam_type_1.jpg" | relative_url }}
+[actuator-emla-a]: {{ "/assets/images/musculoskeletal_robot_review/actuator_emla_a.jpg" | relative_url }}
+[actuator-emla-b]: {{ "/assets/images/musculoskeletal_robot_review/actuator_emla_b.jpg" | relative_url }}
+[actuator-ipehla]: {{ "/assets/images/musculoskeletal_robot_review/actuator_ipehla.png" | relative_url }}
+[robot-biobiped1]: {{ "/assets/images/musculoskeletal_robot_review/robot_biobiped1.png" | relative_url }}
+[robot-biobiped2]: {{ "/assets/images/musculoskeletal_robot_review/robot_biobiped2.png" | relative_url }}
+[robot-biobiped3]: {{ "/assets/images/musculoskeletal_robot_review/robot_biobiped3.jpg" | relative_url }}
+[robot-jsk-kotaro]: {{ "/assets/images/musculoskeletal_robot_review/robot_jsk_kotaro.png" | relative_url }}
+[robot-jsk-kojiro]: {{ "/assets/images/musculoskeletal_robot_review/robot_jsk_kojiro.png" | relative_url }}
+[robot-jsk-kenzoh]: {{ "/assets/images/musculoskeletal_robot_review/robot_jsk_kenzoh.png" | relative_url }}
+[robot-jsk-kenshiro]: {{ "/assets/images/musculoskeletal_robot_review/robot_jsk_kenshiro.png" | relative_url }}
+[robot-jsk-kengoro]: {{ "/assets/images/musculoskeletal_robot_review/robot_jsk_kengoro.jpg" | relative_url }}
+[robot-isi-mowgli]: {{ "/assets/images/musculoskeletal_robot_review/robot_isi_mowgli.png" | relative_url }}
+[robot-isi-athlete1]: {{ "/assets/images/musculoskeletal_robot_review/robot_isi_athlete1.jpg" | relative_url }}
+[robot-isi-athlete2]: {{ "/assets/images/musculoskeletal_robot_review/robot_isi_athlete2.jpg" | relative_url }}
+[robot-isi-athlete3]: {{ "/assets/images/musculoskeletal_robot_review/robot_isi_athlete3.png" | relative_url }}
+[robot-isi-tacomal]: {{ "/assets/images/musculoskeletal_robot_review/robot_isi_tacomal.png" | relative_url }}
+[robot-isi-paulter-ii]: {{ "/assets/images/musculoskeletal_robot_review/robot_isi_paulter_ii.png" | relative_url }}
+[robot-hosoda-2d-biped-walker]: {{ "/assets/images/musculoskeletal_robot_review/robot_hosoda_2d_biped_walker.png" | relative_url }}
+[robot-hosoda-pneumat-bt]: {{ "/assets/images/musculoskeletal_robot_review/robot_hosoda_pneumat_bt.png" | relative_url }}
+[robot-hosoda-pneumat-bs]: {{ "/assets/images/musculoskeletal_robot_review/robot_hosoda_pneumat_bs.png" | relative_url }}

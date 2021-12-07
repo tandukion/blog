@@ -106,16 +106,16 @@ The figure below shows the muscles all together in one image for a full (simplif
 [1] Friedrich Paulsen and Jens Waschke. *Sobotta Atlas of Human Anatomy*, Vol. 1.
 Urban & Fischer, 15 edition, 2011.<br/>
 
-[joint-movements]: {{ "/assets/images/2016/2016_leg_joint_movements.png" | relative_url }}
-[mus-il]: {{ "/assets/images/2016/2016_mus_IL_ilipsoas_text.jpg" | relative_url }}
-[mus-gmax]: {{ "/assets/images/2016/2016_mus_GMAX_gluteusmaximus_text.jpg" | relative_url }}
-[mus-abd]: {{ "/assets/images/2016/2016_mus_ABD_abductor_text.jpg" | relative_url }}
-[mus-add]: {{ "/assets/images/2016/2016_mus_ADD_adductor_text.jpg" | relative_url }}
-[mus-vas-rf]: {{ "/assets/images/2016/2016_mus_VAS_RF_vastus_rectusfemoris_text.jpg" | relative_url }}
-[mus-ham]: {{ "/assets/images/2016/2016_mus_HAM_hamstring_text.jpg" | relative_url }}
-[mus-ta]: {{ "/assets/images/2016/2016_mus_TA_tibialisanterior_text.jpg" | relative_url }}
-[mus-sol-gas]: {{ "/assets/images/2016/2016_mus_SOL_GAS_soleus_gastrocnemus_text.jpg" | relative_url }}
-[mus-fb]: {{ "/assets/images/2016/2016_mus_FB_fibularis_text.jpg" | relative_url }}
-[mus-tp]: {{ "/assets/images/2016/2016_mus_TP_tibialisposterior_text.jpg" | relative_url }}
-[mus-lower-extremity]: {{ "/assets/images/2016/2016_mus_lower_extremity_full_text.jpg" | relative_url }}
+[joint-movements]: {{ "/assets/images/human_muscles/leg_joint_movements.png" | relative_url }}
+[mus-il]: {{ "/assets/images/human_muscles/mus_IL_ilipsoas_text.jpg" | relative_url }}
+[mus-gmax]: {{ "/assets/images/human_muscles/mus_GMAX_gluteusmaximus_text.jpg" | relative_url }}
+[mus-abd]: {{ "/assets/images/human_muscles/mus_ABD_abductor_text.jpg" | relative_url }}
+[mus-add]: {{ "/assets/images/human_muscles/mus_ADD_adductor_text.jpg" | relative_url }}
+[mus-vas-rf]: {{ "/assets/images/human_muscles/mus_VAS_RF_vastus_rectusfemoris_text.jpg" | relative_url }}
+[mus-ham]: {{ "/assets/images/human_muscles/mus_HAM_hamstring_text.jpg" | relative_url }}
+[mus-ta]: {{ "/assets/images/human_muscles/mus_TA_tibialisanterior_text.jpg" | relative_url }}
+[mus-sol-gas]: {{ "/assets/images/human_muscles/mus_SOL_GAS_soleus_gastrocnemus_text.jpg" | relative_url }}
+[mus-fb]: {{ "/assets/images/human_muscles/mus_FB_fibularis_text.jpg" | relative_url }}
+[mus-tp]: {{ "/assets/images/human_muscles/mus_TP_tibialisposterior_text.jpg" | relative_url }}
+[mus-lower-extremity]: {{ "/assets/images/human_muscles/mus_lower_extremity_full_text.jpg" | relative_url }}
 
