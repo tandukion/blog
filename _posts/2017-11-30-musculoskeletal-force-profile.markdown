@@ -195,6 +195,7 @@ For moment arm calculation on a joint $$i$$ (that rotates link $$i$$+1), ADMA re
 
 and the joint angle $$\theta$$.
 
+#### Moment Arm $$R$$
 To make it easier to understand how to calculate the ADMA, refer to the following figure.
 
 ![][ADMA-calc]{: width="800" }
@@ -211,6 +212,26 @@ $$ \phi+\psi = \cos^{-1} (\frac{r}{C}) = \cos^{-1} (\frac{r}{\sqrt{A^2+B^2}}) $$
 $$ \phi = \cos^{-1} (\frac{r}{\sqrt{A^2+B^2}}) - \tan^{-1} (\frac{A}{B})$$
 
 With $$ A = -a + c \cos\theta + d \sin\theta $$ and $$ B = b + c \sin\theta - d \cos\theta $$.
+
+#### Wire length $$X$$
+Since the muscle length is important to calculate the muscle output force, we can also calculate the wire length on ADMA mechanism.
+From Fig.7 and Fig.8, $$X$$ is the wire length from the guide circle to the insertion point.
+Note that for a pneumatic artifical muscle, $$X$$ will only be the wire, not the muscle.
+
+For the calculation we can divide $$X$$ into two parts: wire around the guide circle $$X_{guide circle} = (\frac{\pi}{2} + \phi) r$$,
+and wire perpendicular to the guide circle $$X_0$$:
+
+$$ X_0 =
+\begin{cases}
+  \frac{A - r \cos\phi}{\sin\phi}, & \text{if}\ \phi=\frac{pi}{2}\ \text{or}\ \phi=\frac{-pi}{2} \\
+  \frac{B + r \sin\phi}{\cos\phi}, & \text{otherwise}
+\end{cases}
+$$
+
+So, we can have the wire length
+
+$$ X = X_0 + (\frac{\pi}{2} + \phi) r $$
+
 
 ## References:
 [1] T. Oshima, T. Fujikawa, O. Kameyama, and M. Kumamoto,
