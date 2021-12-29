@@ -61,7 +61,7 @@ Therefore, the joint torque vector $$\tau$$ is:
 
 $$ \tau = {\mathbf{J}}^T \mathbf{Q} $$
 
-From the musculoskeletal system approach, consider another Jacobian matrix $$ \mathbf{G} $$ which represents
+From the musculoskeletal system approach [4], consider another Jacobian matrix $$ \mathbf{G} $$ which represents
 the relationship between the joint motion and the muscle (actuator) motion.
 Similarly, we can get the joint torque vector as:
 
@@ -172,6 +172,46 @@ the MOFP for each configuration are shown as below.
 
 From this example, we can create a design framework for the muscle configuration of a musculoskeletal robot based on the target maximum output force profile.
 
+### Angle-Dependent Moment Arm
+From the previous section, the Jacobian matrix $$ \mathbf{G} $$ consists of the moment arms of the muscles for each joint.
+On the example, we used constant moment arms for each muscle.
+However, to improve the physical abilities of robots in dynamic motions, the torque-angle relation of the muscles need to be modified [5].
+Instead of using a constant moment arm, Angle-Dependent Moment Arm (ADMA) was proposed [5].
+
+![][ADMA-constant-MA]{: height="150" }
+![][ADMA-ref]{: height="200" }
+###### *Fig.7 Constant moment arm (left) and Angle-Dependent Moment Arm [5] (right) mechanism*
+
+On a muscle mechanism with constant moment arm, a guide circle is placed at the origin of the joint.
+Note that a guide circle is needed to implement a muscle actuator on a joint.
+
+On ADMA mechanism, we applied translation to the guide circle to create an angle-dependent moment arm (ADMA).
+For moment arm calculation on a joint $$i$$ (that rotates link $$i$$+1), ADMA requires constant parameters:
+- $$a$$, translation parallel to link $$i$$
+- $$b$$, translation perpendicular to link $$i$$
+- $$c$$, position of insertion point from the center of rotation, parallel to link $$i$$+1
+- $$d$$, position of insertion point from the center of rotation, perpendicular  to link $$i$$+1
+- $$r$$, radius of the guide circle
+
+and the joint angle $$\theta$$.
+
+To make it easier to understand how to calculate the ADMA, refer to the following figure.
+
+![][ADMA-calc]{: width="800" }
+###### *Fig.8 Angle-Dependent Moment Arm calculation reference*
+
+The moment arm $$R$$ is:
+
+$$ R = r + a \cos\phi + b \sin\phi $$
+
+To get $$\phi$$, we can have additional variables $$A$$, $$B$$, and $$C=\sqrt{A^2+B^2}$$, so 
+
+$$ \phi+\psi = \cos^{-1} (\frac{r}{C}) = \cos^{-1} (\frac{r}{\sqrt{A^2+B^2}}) $$
+
+$$ \phi = \cos^{-1} (\frac{r}{\sqrt{A^2+B^2}}) - \tan^{-1} (\frac{A}{B})$$
+
+With $$ A = -a + c \cos\theta + d \sin\theta $$ and $$ B = b + c \sin\theta - d \cos\theta $$.
+
 ## References:
 [1] T. Oshima, T. Fujikawa, O. Kameyama, and M. Kumamoto,
 “Robotic analyses of output force distribution developed by human limbs”
@@ -187,6 +227,10 @@ Industrial Robot: An International Journal, 2010.
 "Motor impedance and inverse kinematics in musculoskeletal systems"
 Proceedings of the Annual International Conference of the IEEE Engineering in Medicine and Biology Society, pp. 635-636, 1988.
 
+[5] S. Nishikawa, K. Tanaka, K. Shida, T. Fukushima, R. Niiyama, Y. Kuniyoshi,
+“A musculoskeletal bipedal robot designed with angle-dependent moment arm for dynamic motion from multiple states”
+Advanced Robotics, vol. 28, no. 7, pp. 487-496, 2014.
+
 
 [two-joint-motor-force]: {{ "/assets/images/mofp/muscle_force_distribution_1.png" | relative_url }}
 [two-joint-muscle-force]: {{ "/assets/images/mofp/muscle_force_distribution_2.png" | relative_url }}
@@ -198,3 +242,6 @@ Proceedings of the Annual International Conference of the IEEE Engineering in Me
 [exp-uniform]: {{ "/assets/images/mofp/exp_mofp_uniform.png" | relative_url }}
 [exp-anthropomorphic]: {{ "/assets/images/mofp/exp_mofp_anthropomorphic.png" | relative_url }}
 [exp-symmetric-mono-articular]: {{ "/assets/images/mofp/exp_mofp_symmetric_mono_articular.png" | relative_url }}
+[ADMA-ref]: {{ "/assets/images/mofp/ADMA-ref.png" | relative_url }}
+[ADMA-constant-MA]: {{ "/assets/images/mofp/ADMA-constant-MA.png" | relative_url }}
+[ADMA-calc]: {{ "/assets/images/mofp/ADMA-calc.png" | relative_url }}
