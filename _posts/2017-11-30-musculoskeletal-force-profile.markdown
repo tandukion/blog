@@ -233,6 +233,10 @@ So, we can have the wire length
 $$ X = X_0 + (\frac{\pi}{2} + \phi) r $$
 
 
+> ## Updates:
+- (Dec 2021) The scripts to run MOFP analysis on a musculoskeletal leg is available at
+  [musculoskeletal-MOFP repo](https://github.com/tandukion/musculoskeletal-MOFP.git) (running in Octave).
+
 ## References:
 [1] T. Oshima, T. Fujikawa, O. Kameyama, and M. Kumamoto,
 “Robotic analyses of output force distribution developed by human limbs”
