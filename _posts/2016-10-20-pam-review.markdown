@@ -2,7 +2,7 @@
 layout: post
 title:  "Pneumatic artificial muscle actuator"
 date:   2016-10-20 13:39:40 +0900
-tags: actuator review
+tags: actuator musculoskeletal review
 comments: true
 ---
 

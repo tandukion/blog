@@ -2,7 +2,7 @@
 layout: post
 title:  "How to make pneumatic artificial muscle actuator"
 date:   2016-11-02 13:39:40 +0900
-tags: actuator fabrication
+tags: actuator musculoskeletal fabrication
 ---
 > This post is a tutorial for how to make a McKibben pneumatic artifical muscle.
 <!--more-->
