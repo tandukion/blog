@@ -20,7 +20,7 @@ A single McKibben muscle going to be made through this method is shown below.
 
 ## Parts
 The parts needed to create a McKibben muscle are shown below.
-![][mckibben-parts]
+![][mckibben-parts-details]
 ###### *McKibben muscle parts*
 
 | Part name | Material | Remarks |
@@ -72,4 +72,5 @@ Final check should make sure:
 [pam-gif]: {{ "/assets/images/pam_fabrication/mckibben.gif" | relative_url }}
 [mckibben-single]: {{ "/assets/images/pam_fabrication/mckibben_single.png" | relative_url }}
 [mckibben-parts]: {{ "/assets/images/pam_fabrication/mckibben_parts.jpg" | relative_url }}
+[mckibben-parts-details]: {{ "/assets/images/pam_fabrication/mckibben_parts_details_bw.jpg" | relative_url }}
 [mckibben-structure]: {{ "/assets/images/pam_fabrication/mckibben_structure.png" | relative_url }}
