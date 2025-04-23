@@ -10,10 +10,6 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {% for tag in page.tags %}
-        {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a class="post-tag" href="{{ site.baseurl }}/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
-      {% endfor %}
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
@@ -22,6 +18,16 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- if page.tags and page.tags != empty -%}
+  <div class="post-tags">
+    Tags:
+    {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a class="post-tag" href="{{ site.baseurl }}/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
+    {% endfor %}
+  </div>
+  {%- endif -%}
 
   <div class="page-navigation">
     {% if page.previous.url %}
