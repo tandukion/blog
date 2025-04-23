@@ -1,0 +1,43 @@
+@startuml
+
+' Use [*] as starting and ending point.
+' Use --> for arrows.
+
+' --- States ---
+state "Uninitialized" as StateUnInit
+StateUnInit : Systems are not initialized.
+
+state "Initialized" as StateInit
+StateInit : Systems are initialized.
+StateInit : Robot is at a home pose.
+
+state "Pick Motion" as StatePickMotion
+StatePickMotion : Robot is executing pick motion.
+
+state "Picked" as StatePick
+StatePick : Robot is at a pick pose.
+
+state "Place Motion" as StatePlaceMotion
+StatePlaceMotion : Robot is executing place motion.
+
+state "Placed" as StatePlace
+StatePlace : Robot is at a place pose.
+
+state "Home Motion" as StateHomeMotion
+StateHomeMotion : Robot is executing home motion.
+
+
+' --- States transitions ---
+[*] --> StateUnInit
+StateUnInit -> StateInit : System starts
+
+StateInit --> StatePickMotion : Pick starts
+StatePickMotion -> StatePick
+StatePick -> StatePlaceMotion
+StatePlaceMotion -> StatePlace
+StatePlace -> StatePickMotion : Next pick
+StatePlace --> StateHomeMotion : Pick-place finishes
+StateHomeMotion -> StateInit
+StateInit -> StateUnInit : System shutdown
+
+@enduml
