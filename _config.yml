@@ -41,6 +41,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-archive
+  - jemoji
 show_excerpts: True
 excerpt_separator: <!--more-->
 
