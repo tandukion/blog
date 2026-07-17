@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "ROS on Raspberry Pi 3B+"
-date:   2019-09-01 14:51:40 +0900
-tags: ROS raspberry
+date:   2019-08-13 14:51:40 +0900
+tags: ROS
 ---
 > Installing ROS on Raspberry Pi 3B+ for hands-on experience on using ROS on a real robot
 <!--more-->
